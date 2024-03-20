@@ -8,7 +8,6 @@ import {
     FunctionUrlAuthType,
 } from 'aws-cdk-lib/aws-lambda';
 import path = require('path');
-import * as apigateway from 'aws-cdk-lib/aws-apigateway';
 
 export class TemplateNodeAwsCdkStack extends cdk.Stack {
     constructor(scope: Construct, id: string, props?: cdk.StackProps) {
